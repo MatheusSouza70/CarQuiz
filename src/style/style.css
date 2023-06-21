@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+main,
+main section#enter {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+main section#enter h1 {
+  font-size: 4rem;
+}
+
+main section#enter p.alert {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+}
+
+main section#enter p.alert span {
+  color: #4955e0;
+}
+
+main section#enter a input {
+  background: inherit;
+  border: 2px solid #4955e0;
+  font-size: 2.5rem;
+  border-radius: 4rem;
+  padding: 0.5rem 5rem;
+}
+
+main section#enter a input:hover {
+  background: #4955e0;
+  font-size: 3rem;
+  color: white;
+  transition: 0.5s;
+}

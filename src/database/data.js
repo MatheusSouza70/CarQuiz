@@ -1,0 +1,105 @@
+export const questions = [
+  {
+    image: "/src/assets/imgs/gol-gti.jpeg",
+    ask: "Como é conhecido o motor desta geração de Volkswagen Gol?",
+    answers: ["JDM", "AP", "FiveTech", "V-Tech", "Firefly"],
+    correctAnswerIndex: 1,
+  },
+  {
+    image: "/src/assets/imgs/AE86.jpeg",
+    ask: "Este modelo é conhecido por sua aparição em Initial D (um anime com foco em corridas), e é extremamente conhecido por ter sido utilizado por um dos maiores difusores da técnica drift, qual o nome do modelo deste carro:",
+    answers: [
+      "Nissan Skyline",
+      "Ford Mustang",
+      "Nissan 370z",
+      "Toyota Corolla (Levin/Trueno) AE86",
+      "Mazda MX-5 miata",
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    image: "/src/assets/imgs/Tanque-Porsche.jpg",
+    ask: "Durante a Segunda Guerra Mundial, diversas montadoras de carros que temos atualmente produziam veículos bélicos. Qual destas marcas a baixo produziam tanques ao exercito alemão?",
+    answers: ["PORSCHE", "ROLLSROYCE", "RENAULT", "FIAT", "FORD"],
+    correctAnswerIndex: 0,
+  },
+  {
+    image: "/src/assets/imgs/RX8.jpg",
+    ask: "O icônico RX-8 é um modelo fabricado pela Mazda entre 2003 e 2012. Muito conhecido por ter servido como inspiração do personagem McQueen no filme da Carros da Disney. Uma curiosidade deste carro é o modo de funcionamento de seu motor em que se carateriza por ser...",
+    answers: [
+      "Pistões em linha",
+      "Pistões organizados em V5",
+      "Por ter 20 valvulas",
+      "Por ter 2.0 litros",
+      "Por ser rotativo",
+    ],
+    correctAnswerIndex: 4,
+  },
+  {
+    image: "/src/assets/imgs/AyrtonSenna.jpeg",
+    ask: "O lendário Ayrton Senna, ao ser convido pela Honda a testar um novo protótipo de hipercarro, ajudou no desenvolvimento de um dos mais famosos superesportivos de todo o mundo. Que carro foi este? ",
+    answers: [
+      "Uno de firma",
+      "Ferrari F1",
+      "Honda NSX",
+      "Toyota Supra",
+      "Mitsubishi Eclipse",
+    ],
+    correctAnswerIndex: 2,
+  },
+
+  {
+    image: "/src/assets/imgs/ferrari.jpg",
+    ask: "Quem é a pessoa da foto?",
+    answers: [
+      "Mesut Ozil",
+      "Carroll Shelby",
+      "Ken Miles",
+      "Enzo Ferrari",
+      "Nenhuma das alternativas",
+    ],
+    correctAnswerIndex: 3,
+  },
+  {
+    image: "/src/assets/imgs/koenigsegg.jpg",
+    ask: "Koenigsegg Jesko Absolut é conhecido por ser o carro de produção mais rápido atualmente (2023), Qual seria sua velocidade máxima? ",
+    answers: ["491 km/h", "503 km/h", "531 km/h", "620 km/h", "457 km/h"],
+    correctAnswerIndex: 2,
+  },
+  {
+    image: "/src/assets/imgs/suv.png",
+    ask: "Qual a sigla (em inglês) de SUV?",
+    answers: [
+      "Sport Utility Vehicle",
+      "Sport Vehicle Utility",
+      "She Visited Uncle",
+      "Super Useful Vehicle",
+      "Sport Very Vehicle",
+    ],
+    correctAnswerIndex: 0,
+  },
+  {
+    image: "/src/assets/imgs/fordlogo.png",
+    ask: "Quem criou a marca Ford Motor Company?",
+    answers: [
+      "Ferdinand Ford",
+      "Willian Ford",
+      "Ferruccio Ford",
+      "James Ford",
+      "Henry Ford",
+    ],
+    correctAnswerIndex: 4,
+  },
+  {
+    image: "/src/assets/imgs/suv.png",
+    ask: "Quais as principais diferenças entre SUV e CROSSOVER?",
+    answers: [
+      "A diferença está no nome. Na prática, os dois são as mesmas coisas.",
+      "Os SUVs usam chassis e são derivados de caminhonetes enquanto que, os CROSSOVERs usam chassis tipo monobloco e, são projetos próprios.",
+      "Um tem transmissão manual enquanto que, no outro, a transmissão é automática.",
+      "Os SUVs são mais populares enquanto que, os crossovers são menos.",
+      "Nenhuma.",
+    ],
+    correctAnswerIndex: 1,
+  },
+];
